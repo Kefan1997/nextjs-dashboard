@@ -12,7 +12,6 @@ import {
 import Link from 'next/link';
 import { Button } from '@/app/ui/button';
 import { State, updateInvoice } from '@/app/lib/action';
-import { init } from 'next/dist/compiled/webpack/webpack';
 
 export default function EditInvoiceForm({
   invoice,
